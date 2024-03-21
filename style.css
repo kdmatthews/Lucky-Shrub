@@ -1,6 +1,10 @@
 body {
-    background-color: #EDEFEE;
+    background-color: #B1D8B7;
     font-family: "Gill Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
 }
 
 header {
@@ -65,10 +69,14 @@ nav a:hover {
 
 
 /* main */
+main{
+    flex-grow: 1;
+}
 section {
     display: flex;
     background-color:#B1D8B7;
     padding: 1rem;
+
     
 }
 
@@ -117,10 +125,14 @@ article > img {
 }
 
 .cards a {
-    background-color: green;
+    background-color: #2F5233;
     border-radius: 1rem;
     padding: .5rem;
     color: white;
+}
+
+.cards a:hover {
+    color:#94C973;
 }
 
 /* Footer */
@@ -129,12 +141,18 @@ footer {
     display: flex;
     background-color: #2F5233;
     text-align: right;
-    padding: .5rem;
+    padding: 1rem;
+
+
+    
+    
     
 }
 
 footer div {
     flex: 1;
+    margin-bottom: 0;
+    margin-left: 0;
     
 }
 
